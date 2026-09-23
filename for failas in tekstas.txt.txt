@@ -1,0 +1,5 @@
+ for failas in tekstas*.txt
+> do
+>    naujas_pavadinimas=${failas/tekstas/t}
+>    mv $failas $naujas_pavadinimas
+> done
